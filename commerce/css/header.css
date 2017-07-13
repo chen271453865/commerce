@@ -1,0 +1,114 @@
+/*头部开始*/
+header{
+	width: 1400px;
+	margin: 20px auto;
+	display: flex;
+	background: #FFFFFF;
+}
+.logo,
+.search{
+	display: inline-block;
+	flex: 1;;
+	-moz-box-flex: 1;
+	-ms-flex: 1;
+	overflow: hidden;
+}
+.search{
+	text-align: right;
+	vertical-align: middle;
+}
+.logo_contain,
+.logo_font{
+	display: inline-block;
+	background-size: contain;
+	vertical-align: -webkit-baseline-middle;
+	transform: scaleX(40deg);
+}
+.logo_contain img{
+	transform: scale(0.8);
+}
+.logo strong{
+	display: inline-block;
+	/*line-height: 142px;
+	height: 142px;*/
+	vertical-align: bottom;
+	font-size: 40px;
+	color: #0057af;
+	transform:skewY(-30deg);
+	transform:skewX(-20deg);
+	padding-left: 10px;
+	text-align: center;
+}
+.logo small{
+	color: #676060;
+	display: inline-block;
+	line-height: 40px;
+	transform:skewY(-30deg);
+	transform:skewX(-40deg);
+	font-size: 13px;
+	padding-left: 10px;
+	text-align: center;
+}
+.search{
+	align-self: center;
+	margin-top: -20px;
+}
+.search p{
+	line-height: 40px;
+}
+.search p a{
+	color:#0057af;
+}
+.search_div{
+	border: 1px solid #0057af;
+	width:230px;
+	text-align: right;
+	float: right;
+	padding: 0 5px;
+}
+.search_div input{
+	border: 0;
+	height: 30px;
+	line-height: 30px;
+	width:180px;
+	outline-style: none;
+}
+.seach_icon{
+	width: 30px !important;
+	height: 30px !important;
+	line-height: 30px;
+	display: inline-block !important;
+	color: #0057af !important;
+}
+/*头部结束*/
+/*导航开始*/
+nav{
+	width: 100%;
+	overflow: hidden;
+	background:#0057af;
+}
+nav ul{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
+nav ul a{
+	padding: 10px auto;
+	text-align: center;
+	display: block;
+	flex: 1;
+	color: #ffffff;
+	line-height: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+.active{
+	background: #f2700e;
+	color: #ffffff;
+}
+nav ul a:hover{
+	background: #f2700e;
+	color: #ffffff;
+}
+/*导航结束*/

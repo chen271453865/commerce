@@ -1,0 +1,27 @@
+/*底部导航开始*/
+footer{
+	width: 100%;
+	padding-top: 20px;
+	background:#0057af ;
+}
+.foot_nav{
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	display: flex;
+}
+.foot_nav a{
+	flex: 1;
+	color: #FFFFFF;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+footer p{
+	width: 1200px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 20px;
+	margin: 0 auto;
+}
+/*底部导航结束*/

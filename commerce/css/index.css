@@ -1,0 +1,127 @@
+/*公告信息开始*/
+.contains{
+	width: 1200px;
+	margin: 20px auto;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.flex_all,
+.contain_all{
+	display: flex;
+}
+.contain_msg,
+.swifter,
+.list_ul{
+	flex: 1;
+	overflow: hidden;
+}
+.list_ul li{
+	line-height: 40px;
+	font-size: 16px;
+	overflow: hidden;
+	border-bottom: 1px dashed #d8d4d4;
+}
+.list_ul li strong{
+	width: 20%;
+	display: block;
+	float: left;
+	color:#0057af;
+}
+.list_ul li a{
+	display: block;
+	float: left;
+	width: 78%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: bottom;
+}
+.list_ul li a:hover{
+	color:#0057af;
+}
+.contain_msg:nth-of-type(1){
+	flex: 2;
+}
+.contain_msg{
+	padding: 0 10px;
+}
+.contain_msg swifter,
+.contain_msg title{
+	flex: 1 !important;
+}
+.swifter{
+	margin-right: 10px;
+}
+.title{
+	overflow: hidden;
+	display: flex;
+	margin-bottom: 10px;
+}
+.title span,
+.title strong,
+.title small{
+	flex: 1;
+}
+.title strong{
+	margin-left: 10px;
+	font-size: 30px;
+	color: #0057af;
+	flex: 8;
+	transform: skew(-20deg);
+}
+.title a{
+	float: right;
+	text-align: right;
+	transform: skew(-20deg);
+	line-height: 30px;
+}
+.gonggao{
+	color:#0057af !important;
+	font-size: 30px !important;
+	vertical-align: middle !important;
+	display: inline-block !important;
+}
+/*公告信息结束*/
+/*照片连接开始*/
+.img_show_contain{
+	margin-top: 20px;
+	overflow: hidden;
+	display: flex;
+}
+.img_show{
+	flex: 1;
+	cursor: pointer;
+	margin-right: 10px;
+	background-size: contain;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	background-size: contain;
+}
+.img_show img{
+	width: 100%;
+	height: auto;
+	transform: scale(1);
+	transition: all 2s;
+}
+.img_show:hover:.img_show{
+	width: 100%;
+}
+.img_show:hover img{
+	transform: scale(1.1);
+}
+.enter_img_contain{
+	position: fixed;
+	z-index: 4;
+	width: 200px;
+	height: auto;
+	right: -160px;
+	transition: all 2s; 
+	top: 40%;
+	background-size: contain;
+}
+.enter_img_contain:hover{
+	right: 0px;
+}
+/*照片连接结束*/
+

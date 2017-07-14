@@ -34,10 +34,10 @@ define(function(require,exports,module){
 	function animate(){
 		$(function(){
 			$('.logo').animate({
-				marginLeft:'100px',
+				marginLeft:'50px',
 			});
 			$('.search').animate({
-				marginRight:'100px',
+				marginRight:'50px',
 			})
 		})
 	}
